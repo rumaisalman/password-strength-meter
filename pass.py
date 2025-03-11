@@ -48,7 +48,7 @@ if password:
 
         if score <= 2:
             strength_message = "⚠️ Weak password: missing key elements."
-        elif score <= 4:
+        elif score == 3:
             strength_message = "🟡 Moderate password: consider adding more security features."
         else:
             strength_message = "✅ Strong password: meets all security criteria."
